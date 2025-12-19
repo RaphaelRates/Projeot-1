@@ -1,4 +1,5 @@
 import React from 'react'
+import Log from './Log';
 
 const PageLogs = () => {
   return (
@@ -9,7 +10,7 @@ const PageLogs = () => {
             </header>
         </div>
         <div>
-            logs
+            <Log/>
         </div>
     </div>
   )

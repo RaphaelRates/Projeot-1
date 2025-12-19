@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2024-12-19T10:15:23Z",
+    "level": "INFO",
+    "service": "api-gateway",
+    "message": "Request received from client",
+    "userId": "user_12345"
+  },
+  {
+    "id": 2,
+    "timestamp": "2024-12-19T10:15:24Z",
+    "level": "DEBUG",
+    "service": "auth-service",
+    "message": "Validating user credentials",
+    "userId": "user_12345"
+  },
+  {
+    "id": 3,
+    "timestamp": "2024-12-19T10:15:25Z",
+    "level": "INFO",
+    "service": "auth-service",
+    "message": "User authenticated successfully",
+    "userId": "user_12345"
+  },
+  {
+    "id": 4,
+    "timestamp": "2024-12-19T10:15:26Z",
+    "level": "WARN",
+    "service": "database",
+    "message": "Connection pool approaching limit",
+    "connections": 45,
+    "maxConnections": 50
+  },
+  {
+    "id": 5,
+    "timestamp": "2024-12-19T10:15:27Z",
+    "level": "ERROR",
+    "service": "payment-service",
+    "message": "Payment processing failed",
+    "errorCode": "INSUFFICIENT_FUNDS",
+    "userId": "user_67890"
+  },
+  {
+    "id": 6,
+    "timestamp": "2024-12-19T10:15:28Z",
+    "level": "INFO",
+    "service": "notification-service",
+    "message": "Email sent successfully",
+    "recipient": "user@example.com"
+  },
+  {
+    "id": 7,
+    "timestamp": "2024-12-19T10:15:29Z",
+    "level": "CRITICAL",
+    "service": "api-gateway",
+    "message": "Service unavailable - downstream timeout",
+    "endpoint": "/api/orders"
+  }
+]
